@@ -1,0 +1,17 @@
+{
+  "name": "modules_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "startMyScript": "./node_modules/.bin/nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
