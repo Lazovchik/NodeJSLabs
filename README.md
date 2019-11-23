@@ -52,7 +52,16 @@ In both subfolders run:
 
 `npm run start`
 
-In TypeScript subfolder:
+In any browser go to: http://localhost:8080
+
+OR
+
+to: http://localhost:1337
+
+
+# Lab 2 ExpressJS subfolder:
+
+# Lab 2 TypeScript subfolder:
 
 If you want to "transiple" .js out of typrscript run:
 
