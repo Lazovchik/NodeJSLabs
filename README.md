@@ -41,3 +41,21 @@ Add `/hello?name=smt` to the adress prompt in the browser
 Try to guess what's my name and see some bonus output :)
 
 Or just look for it in the code
+
+#For the lab 2
+
+#Requirements and installation are the same
+
+#To run:
+
+In both subfolders run:
+
+`npm run start`
+
+In TypeScript subfolder:
+
+If you want to "transiple" .js out of typrscript run:
+
+`npm run build`
+
+Than you can find a transpiled js code in dist/server.js
