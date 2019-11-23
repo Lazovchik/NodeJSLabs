@@ -42,11 +42,11 @@ Try to guess what's my name and see some bonus output :)
 
 Or just look for it in the code
 
-#For the lab 2
+# For the lab 2
 
-#Requirements and installation are the same
+# Requirements and installation are the same
 
-#To run:
+# To run:
 
 In both subfolders run:
 
