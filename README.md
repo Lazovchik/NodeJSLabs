@@ -81,6 +81,8 @@ Install Postman
 
 `brew cask install postman`
 
+In Postman: 
+
 In the adress field enter :`localhost:8080/`
 
 In HEADRES add: 
