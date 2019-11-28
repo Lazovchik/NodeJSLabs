@@ -68,3 +68,45 @@ If you want to "transiple" .js out of typrscript run:
 `npm run build`
 
 Than you can find a transpiled js code in dist/server.js
+
+# Lab 3
+
+Same Requirements
+
+Same Installation instructions
+
+# To test the DB management
+
+Install Postman
+
+`brew cask install postman`
+
+In the adress field enter :`localhost:8080/`
+
+In HEADRES add: 
+
+KEY : `Content-Type`
+
+VALUE : `application/json` 
+
+# GET requests
+
+`localhost:8080/metrics` to get all the metrics from the database
+
+`localhost:8080/metrics/metrics_ID/metrics_number` to get a concrete metric
+
+# POST requests
+
+To add some metrics into the database
+
+`localhost:8080/metrics/metrics_ID`
+
+in Body enter `[
+  { "timestamp":"1384686660000", "value":"10" },
+  { "timestamp":"1384686660001", "value":"12" },
+  { "timestamp":"1384686660002", "value":"13" }
+]`
+
+To remove a certain metric from the database
+
+`localhost:8080/metrics/metrics_ID`
